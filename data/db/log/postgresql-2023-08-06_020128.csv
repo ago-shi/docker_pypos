@@ -1,0 +1,23 @@
+2023-08-06 02:01:28.080 UTC,,,1,,64cefef8.1,1,,2023-08-06 02:01:28 UTC,,0,LOG,00000,"ending log output to stderr",,"Future log output will go to log destination ""csvlog"".",,,,,,,"","postmaster",,0
+2023-08-06 02:01:28.080 UTC,,,1,,64cefef8.1,2,,2023-08-06 02:01:28 UTC,,0,LOG,00000,"starting PostgreSQL 15.2 (Debian 15.2-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit",,,,,,,,,"","postmaster",,0
+2023-08-06 02:01:28.081 UTC,,,1,,64cefef8.1,3,,2023-08-06 02:01:28 UTC,,0,LOG,00000,"listening on IPv4 address ""0.0.0.0"", port 5455",,,,,,,,,"","postmaster",,0
+2023-08-06 02:01:28.081 UTC,,,1,,64cefef8.1,4,,2023-08-06 02:01:28 UTC,,0,LOG,00000,"listening on IPv6 address ""::"", port 5455",,,,,,,,,"","postmaster",,0
+2023-08-06 02:01:28.081 UTC,,,1,,64cefef8.1,5,,2023-08-06 02:01:28 UTC,,0,LOG,00000,"listening on Unix socket ""/var/run/postgresql/.s.PGSQL.5455""",,,,,,,,,"","postmaster",,0
+2023-08-06 02:01:28.082 UTC,,,31,,64cefef8.1f,1,,2023-08-06 02:01:28 UTC,,0,LOG,00000,"database system was shut down at 2023-08-06 02:00:44 UTC",,,,,,,,,"","startup",,0
+2023-08-06 02:01:28.085 UTC,,,1,,64cefef8.1,6,,2023-08-06 02:01:28 UTC,,0,LOG,00000,"database system is ready to accept connections",,,,,,,,,"","postmaster",,0
+2023-08-06 02:01:29.740 UTC,,,35,"172.18.0.3:42116",64cefef9.23,1,"",2023-08-06 02:01:29 UTC,,0,LOG,00000,"connection received: host=172.18.0.3 port=42116",,,,,,,,,"","not initialized",,0
+2023-08-06 02:01:29.741 UTC,"postgres","postgres",35,"172.18.0.3:42116",64cefef9.23,2,"authentication",2023-08-06 02:01:29 UTC,3/1,0,LOG,00000,"connection authorized: user=postgres database=postgres",,,,,,,,,"","client backend",,0
+2023-08-06 02:02:40.578 UTC,,,46,"[local]",64ceff40.2e,1,"",2023-08-06 02:02:40 UTC,,0,LOG,00000,"connection received: host=[local]",,,,,,,,,"","not initialized",,0
+2023-08-06 02:02:40.579 UTC,"postgres","postgres",46,"[local]",64ceff40.2e,2,"authentication",2023-08-06 02:02:40 UTC,4/7,0,LOG,00000,"connection authorized: user=postgres database=postgres application_name=psql",,,,,,,,,"","client backend",,0
+2023-08-06 02:02:43.603 UTC,"postgres","postgres",46,"[local]",64ceff40.2e,3,"idle",2023-08-06 02:02:40 UTC,,0,LOG,00000,"disconnection: session time: 0:00:03.024 user=postgres database=postgres host=[local]",,,,,,,,,"psql","client backend",,0
+2023-08-06 02:06:28.184 UTC,,,29,,64cefef8.1d,1,,2023-08-06 02:01:28 UTC,,0,LOG,00000,"checkpoint starting: time",,,,,,,,,"","checkpointer",,0
+2023-08-06 02:06:28.187 UTC,,,29,,64cefef8.1d,2,,2023-08-06 02:01:28 UTC,,0,LOG,00000,"checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.004 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB",,,,,,,,,"","checkpointer",,0
+2023-08-06 05:19:02.192 UTC,,,1,,64cefef8.1,7,,2023-08-06 02:01:28 UTC,,0,LOG,00000,"received fast shutdown request",,,,,,,,,"","postmaster",,0
+2023-08-06 05:19:02.192 UTC,,,1,,64cefef8.1,8,,2023-08-06 02:01:28 UTC,,0,LOG,00000,"aborting any active transactions",,,,,,,,,"","postmaster",,0
+2023-08-06 05:19:02.193 UTC,"postgres","postgres",35,"172.18.0.3:42116",64cefef9.23,3,"idle",2023-08-06 02:01:29 UTC,3/0,0,FATAL,57P01,"terminating connection due to administrator command",,,,,,,,,"","client backend",,0
+2023-08-06 05:19:02.193 UTC,"postgres","postgres",35,"172.18.0.3:42116",64cefef9.23,4,"idle",2023-08-06 02:01:29 UTC,,0,LOG,00000,"disconnection: session time: 3:17:32.452 user=postgres database=postgres host=172.18.0.3 port=42116",,,,,,,,,"","client backend",,0
+2023-08-06 05:19:02.195 UTC,,,1,,64cefef8.1,9,,2023-08-06 02:01:28 UTC,,0,LOG,00000,"background worker ""logical replication launcher"" (PID 34) exited with exit code 1",,,,,,,,,"","postmaster",,0
+2023-08-06 05:19:02.196 UTC,,,29,,64cefef8.1d,3,,2023-08-06 02:01:28 UTC,,0,LOG,00000,"shutting down",,,,,,,,,"","checkpointer",,0
+2023-08-06 05:19:02.196 UTC,,,29,,64cefef8.1d,4,,2023-08-06 02:01:28 UTC,,0,LOG,00000,"checkpoint starting: shutdown immediate",,,,,,,,,"","checkpointer",,0
+2023-08-06 05:19:02.197 UTC,,,29,,64cefef8.1d,5,,2023-08-06 02:01:28 UTC,,0,LOG,00000,"checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.002 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB",,,,,,,,,"","checkpointer",,0
+2023-08-06 05:19:02.200 UTC,,,1,,64cefef8.1,10,,2023-08-06 02:01:28 UTC,,0,LOG,00000,"database system is shut down",,,,,,,,,"","postmaster",,0

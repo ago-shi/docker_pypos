@@ -1,0 +1,2 @@
+2023-07-26 15:19:13.613 UTC [1] LOG:  ending log output to stderr
+2023-07-26 15:19:13.613 UTC [1] HINT:  Future log output will go to log destination "csvlog".

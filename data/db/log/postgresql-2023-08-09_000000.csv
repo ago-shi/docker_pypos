@@ -1,0 +1,7 @@
+2023-08-09 15:02:57.973 UTC,"postgres","postgres",34,"172.18.0.3:47462",64d26cc0.22,3,"idle",2023-08-08 16:26:40 UTC,,0,LOG,00000,"disconnection: session time: 22:36:17.559 user=postgres database=postgres host=172.18.0.3 port=47462",,,,,,,,,"","client backend",,0
+2023-08-09 15:02:58.148 UTC,,,1,,64d26cbe.1,7,,2023-08-08 16:26:38 UTC,,0,LOG,00000,"received fast shutdown request",,,,,,,,,"","postmaster",,0
+2023-08-09 15:02:58.148 UTC,,,1,,64d26cbe.1,8,,2023-08-08 16:26:38 UTC,,0,LOG,00000,"aborting any active transactions",,,,,,,,,"","postmaster",,0
+2023-08-09 15:02:58.149 UTC,,,1,,64d26cbe.1,9,,2023-08-08 16:26:38 UTC,,0,LOG,00000,"background worker ""logical replication launcher"" (PID 33) exited with exit code 1",,,,,,,,,"","postmaster",,0
+2023-08-09 15:02:58.150 UTC,,,28,,64d26cbe.1c,3,,2023-08-08 16:26:38 UTC,,0,LOG,00000,"shutting down",,,,,,,,,"","checkpointer",,0
+2023-08-09 15:02:58.151 UTC,,,28,,64d26cbe.1c,4,,2023-08-08 16:26:38 UTC,,0,LOG,00000,"checkpoint starting: shutdown immediate",,,,,,,,,"","checkpointer",,0
+2023-08-09 15:02:58.151 UTC,,,28,,64d26cbe.1c,5,,2023-08-08 16:26:38 UTC,,0,LOG,00000,"checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.001 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB",,,,,,,,,"","checkpointer",,0

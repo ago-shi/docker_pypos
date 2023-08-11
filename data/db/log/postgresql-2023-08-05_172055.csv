@@ -1,0 +1,14 @@
+2023-08-05 17:20:55.982 UTC,,,1,,64ce84f7.1,1,,2023-08-05 17:20:55 UTC,,0,LOG,00000,"ending log output to stderr",,"Future log output will go to log destination ""csvlog"".",,,,,,,"","postmaster",,0
+2023-08-05 17:20:55.982 UTC,,,1,,64ce84f7.1,2,,2023-08-05 17:20:55 UTC,,0,LOG,00000,"starting PostgreSQL 15.2 (Debian 15.2-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit",,,,,,,,,"","postmaster",,0
+2023-08-05 17:20:55.982 UTC,,,1,,64ce84f7.1,3,,2023-08-05 17:20:55 UTC,,0,LOG,00000,"listening on IPv4 address ""0.0.0.0"", port 5455",,,,,,,,,"","postmaster",,0
+2023-08-05 17:20:55.982 UTC,,,1,,64ce84f7.1,4,,2023-08-05 17:20:55 UTC,,0,LOG,00000,"listening on IPv6 address ""::"", port 5455",,,,,,,,,"","postmaster",,0
+2023-08-05 17:20:55.983 UTC,,,1,,64ce84f7.1,5,,2023-08-05 17:20:55 UTC,,0,LOG,00000,"listening on Unix socket ""/var/run/postgresql/.s.PGSQL.5455""",,,,,,,,,"","postmaster",,0
+2023-08-05 17:20:55.986 UTC,,,29,,64ce84f7.1d,1,,2023-08-05 17:20:55 UTC,,0,LOG,00000,"database system was shut down at 2023-08-05 17:20:46 UTC",,,,,,,,,"","startup",,0
+2023-08-05 17:20:55.988 UTC,,,1,,64ce84f7.1,6,,2023-08-05 17:20:55 UTC,,0,LOG,00000,"database system is ready to accept connections",,,,,,,,,"","postmaster",,0
+2023-08-05 17:20:57.501 UTC,,,33,"172.18.0.3:49940",64ce84f9.21,1,"",2023-08-05 17:20:57 UTC,,0,LOG,00000,"connection received: host=172.18.0.3 port=49940",,,,,,,,,"","not initialized",,0
+2023-08-05 17:20:57.509 UTC,"postgres","postgres",33,"172.18.0.3:49940",64ce84f9.21,2,"authentication",2023-08-05 17:20:57 UTC,3/1,0,LOG,00000,"connection authenticated: identity=""postgres"" method=scram-sha-256 (/var/lib/postgresql/data/pg_hba.conf:100)",,,,,,,,,"","client backend",,0
+2023-08-05 17:20:57.509 UTC,"postgres","postgres",33,"172.18.0.3:49940",64ce84f9.21,3,"authentication",2023-08-05 17:20:57 UTC,3/1,0,LOG,00000,"connection authorized: user=postgres database=postgres",,,,,,,,,"","client backend",,0
+2023-08-05 17:25:56.086 UTC,,,27,,64ce84f7.1b,1,,2023-08-05 17:20:55 UTC,,0,LOG,00000,"checkpoint starting: time",,,,,,,,,"","checkpointer",,0
+2023-08-05 17:25:56.088 UTC,,,27,,64ce84f7.1b,2,,2023-08-05 17:20:55 UTC,,0,LOG,00000,"checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.003 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB",,,,,,,,,"","checkpointer",,0
+2023-08-05 19:35:38.722 UTC,"postgres","postgres",33,"172.18.0.3:49940",64ce84f9.21,4,"idle",2023-08-05 17:20:57 UTC,3/0,0,LOG,08006,"could not receive data from client: Connection timed out",,,,,,,,,"","client backend",,0
+2023-08-05 19:35:38.722 UTC,"postgres","postgres",33,"172.18.0.3:49940",64ce84f9.21,5,"idle",2023-08-05 17:20:57 UTC,,0,LOG,00000,"disconnection: session time: 2:14:41.220 user=postgres database=postgres host=172.18.0.3 port=49940",,,,,,,,,"","client backend",,0

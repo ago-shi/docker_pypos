@@ -1,0 +1,18 @@
+2023-08-05 17:20:18.554 UTC,,,1,,64ce84d2.1,1,,2023-08-05 17:20:18 UTC,,0,LOG,00000,"ending log output to stderr",,"Future log output will go to log destination ""csvlog"".",,,,,,,"","postmaster",,0
+2023-08-05 17:20:18.554 UTC,,,1,,64ce84d2.1,2,,2023-08-05 17:20:18 UTC,,0,LOG,00000,"starting PostgreSQL 15.2 (Debian 15.2-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit",,,,,,,,,"","postmaster",,0
+2023-08-05 17:20:18.555 UTC,,,1,,64ce84d2.1,3,,2023-08-05 17:20:18 UTC,,0,LOG,00000,"listening on IPv4 address ""0.0.0.0"", port 5455",,,,,,,,,"","postmaster",,0
+2023-08-05 17:20:18.555 UTC,,,1,,64ce84d2.1,4,,2023-08-05 17:20:18 UTC,,0,LOG,00000,"listening on IPv6 address ""::"", port 5455",,,,,,,,,"","postmaster",,0
+2023-08-05 17:20:18.555 UTC,,,1,,64ce84d2.1,5,,2023-08-05 17:20:18 UTC,,0,LOG,00000,"listening on Unix socket ""/var/run/postgresql/.s.PGSQL.5455""",,,,,,,,,"","postmaster",,0
+2023-08-05 17:20:18.557 UTC,,,30,,64ce84d2.1e,1,,2023-08-05 17:20:18 UTC,,0,LOG,00000,"database system was shut down at 2023-08-05 17:16:23 UTC",,,,,,,,,"","startup",,0
+2023-08-05 17:20:18.568 UTC,,,1,,64ce84d2.1,6,,2023-08-05 17:20:18 UTC,,0,LOG,00000,"database system is ready to accept connections",,,,,,,,,"","postmaster",,0
+2023-08-05 17:20:20.334 UTC,,,34,"172.18.0.3:45112",64ce84d4.22,1,"",2023-08-05 17:20:20 UTC,,0,LOG,00000,"connection received: host=172.18.0.3 port=45112",,,,,,,,,"","not initialized",,0
+2023-08-05 17:20:20.346 UTC,"postgres","postgres",34,"172.18.0.3:45112",64ce84d4.22,2,"authentication",2023-08-05 17:20:20 UTC,3/1,0,LOG,00000,"connection authenticated: identity=""postgres"" method=scram-sha-256 (/var/lib/postgresql/data/pg_hba.conf:100)",,,,,,,,,"","client backend",,0
+2023-08-05 17:20:20.346 UTC,"postgres","postgres",34,"172.18.0.3:45112",64ce84d4.22,3,"authentication",2023-08-05 17:20:20 UTC,3/1,0,LOG,00000,"connection authorized: user=postgres database=postgres",,,,,,,,,"","client backend",,0
+2023-08-05 17:20:46.280 UTC,"postgres","postgres",34,"172.18.0.3:45112",64ce84d4.22,4,"idle",2023-08-05 17:20:20 UTC,,0,LOG,00000,"disconnection: session time: 0:00:25.945 user=postgres database=postgres host=172.18.0.3 port=45112",,,,,,,,,"","client backend",,0
+2023-08-05 17:20:46.424 UTC,,,1,,64ce84d2.1,7,,2023-08-05 17:20:18 UTC,,0,LOG,00000,"received fast shutdown request",,,,,,,,,"","postmaster",,0
+2023-08-05 17:20:46.424 UTC,,,1,,64ce84d2.1,8,,2023-08-05 17:20:18 UTC,,0,LOG,00000,"aborting any active transactions",,,,,,,,,"","postmaster",,0
+2023-08-05 17:20:46.427 UTC,,,1,,64ce84d2.1,9,,2023-08-05 17:20:18 UTC,,0,LOG,00000,"background worker ""logical replication launcher"" (PID 33) exited with exit code 1",,,,,,,,,"","postmaster",,0
+2023-08-05 17:20:46.427 UTC,,,28,,64ce84d2.1c,1,,2023-08-05 17:20:18 UTC,,0,LOG,00000,"shutting down",,,,,,,,,"","checkpointer",,0
+2023-08-05 17:20:46.427 UTC,,,28,,64ce84d2.1c,2,,2023-08-05 17:20:18 UTC,,0,LOG,00000,"checkpoint starting: shutdown immediate",,,,,,,,,"","checkpointer",,0
+2023-08-05 17:20:46.429 UTC,,,28,,64ce84d2.1c,3,,2023-08-05 17:20:18 UTC,,0,LOG,00000,"checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.003 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB",,,,,,,,,"","checkpointer",,0
+2023-08-05 17:20:46.432 UTC,,,1,,64ce84d2.1,10,,2023-08-05 17:20:18 UTC,,0,LOG,00000,"database system is shut down",,,,,,,,,"","postmaster",,0

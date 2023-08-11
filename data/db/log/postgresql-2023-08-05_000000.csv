@@ -1,0 +1,11 @@
+2023-08-05 16:18:56.826 UTC,,,43091,"[local]",64ce7670.a853,1,"",2023-08-05 16:18:56 UTC,,0,LOG,00000,"connection received: host=[local]",,,,,,,,,"","not initialized",,0
+2023-08-05 16:18:56.826 UTC,"postgres","postgres",43091,"[local]",64ce7670.a853,2,"authentication",2023-08-05 16:18:56 UTC,4/85980,0,LOG,00000,"connection authorized: user=postgres database=postgres application_name=psql",,,,,,,,,"","client backend",,0
+2023-08-05 16:26:54.499 UTC,"postgres","postgres",43091,"[local]",64ce7670.a853,3,"idle",2023-08-05 16:18:56 UTC,,0,LOG,00000,"disconnection: session time: 0:07:57.673 user=postgres database=postgres host=[local]",,,,,,,,,"psql","client backend",,0
+2023-08-05 17:16:23.731 UTC,"postgres","postgres",34,"172.18.0.2:50840",64c15286.22,4,"idle",2023-07-26 17:06:14 UTC,,0,LOG,00000,"disconnection: session time: 240:10:09.265 user=postgres database=postgres host=172.18.0.2 port=50840",,,,,,,,,"","client backend",,0
+2023-08-05 17:16:23.777 UTC,,,1,,64c15284.1,7,,2023-07-26 17:06:12 UTC,,0,LOG,00000,"received fast shutdown request",,,,,,,,,"","postmaster",,0
+2023-08-05 17:16:23.778 UTC,,,1,,64c15284.1,8,,2023-07-26 17:06:12 UTC,,0,LOG,00000,"aborting any active transactions",,,,,,,,,"","postmaster",,0
+2023-08-05 17:16:23.780 UTC,,,1,,64c15284.1,9,,2023-07-26 17:06:12 UTC,,0,LOG,00000,"background worker ""logical replication launcher"" (PID 33) exited with exit code 1",,,,,,,,,"","postmaster",,0
+2023-08-05 17:16:23.780 UTC,,,28,,64c15284.1c,3,,2023-07-26 17:06:12 UTC,,0,LOG,00000,"shutting down",,,,,,,,,"","checkpointer",,0
+2023-08-05 17:16:23.780 UTC,,,28,,64c15284.1c,4,,2023-07-26 17:06:12 UTC,,0,LOG,00000,"checkpoint starting: shutdown immediate",,,,,,,,,"","checkpointer",,0
+2023-08-05 17:16:23.781 UTC,,,28,,64c15284.1c,5,,2023-07-26 17:06:12 UTC,,0,LOG,00000,"checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.002 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB",,,,,,,,,"","checkpointer",,0
+2023-08-05 17:16:23.785 UTC,,,1,,64c15284.1,10,,2023-07-26 17:06:12 UTC,,0,LOG,00000,"database system is shut down",,,,,,,,,"","postmaster",,0

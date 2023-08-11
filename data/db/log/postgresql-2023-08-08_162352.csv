@@ -1,0 +1,17 @@
+2023-08-08 16:23:52.644 UTC,,,1,,64d26c18.1,1,,2023-08-08 16:23:52 UTC,,0,LOG,00000,"ending log output to stderr",,"Future log output will go to log destination ""csvlog"".",,,,,,,"","postmaster",,0
+2023-08-08 16:23:52.644 UTC,,,1,,64d26c18.1,2,,2023-08-08 16:23:52 UTC,,0,LOG,00000,"starting PostgreSQL 15.2 (Debian 15.2-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit",,,,,,,,,"","postmaster",,0
+2023-08-08 16:23:52.644 UTC,,,1,,64d26c18.1,3,,2023-08-08 16:23:52 UTC,,0,LOG,00000,"listening on IPv4 address ""0.0.0.0"", port 5455",,,,,,,,,"","postmaster",,0
+2023-08-08 16:23:52.644 UTC,,,1,,64d26c18.1,4,,2023-08-08 16:23:52 UTC,,0,LOG,00000,"listening on IPv6 address ""::"", port 5455",,,,,,,,,"","postmaster",,0
+2023-08-08 16:23:52.645 UTC,,,1,,64d26c18.1,5,,2023-08-08 16:23:52 UTC,,0,LOG,00000,"listening on Unix socket ""/var/run/postgresql/.s.PGSQL.5455""",,,,,,,,,"","postmaster",,0
+2023-08-08 16:23:52.647 UTC,,,31,,64d26c18.1f,1,,2023-08-08 16:23:52 UTC,,0,LOG,00000,"database system was shut down at 2023-08-08 16:21:22 UTC",,,,,,,,,"","startup",,0
+2023-08-08 16:23:52.651 UTC,,,1,,64d26c18.1,6,,2023-08-08 16:23:52 UTC,,0,LOG,00000,"database system is ready to accept connections",,,,,,,,,"","postmaster",,0
+2023-08-08 16:23:54.136 UTC,,,35,"172.18.0.3:46022",64d26c1a.23,1,"",2023-08-08 16:23:54 UTC,,0,LOG,00000,"connection received: host=172.18.0.3 port=46022",,,,,,,,,"","not initialized",,0
+2023-08-08 16:23:54.137 UTC,"postgres","postgres",35,"172.18.0.3:46022",64d26c1a.23,2,"authentication",2023-08-08 16:23:54 UTC,3/1,0,LOG,00000,"connection authorized: user=postgres database=postgres",,,,,,,,,"","client backend",,0
+2023-08-08 16:24:26.855 UTC,"postgres","postgres",35,"172.18.0.3:46022",64d26c1a.23,3,"idle",2023-08-08 16:23:54 UTC,,0,LOG,00000,"disconnection: session time: 0:00:32.718 user=postgres database=postgres host=172.18.0.3 port=46022",,,,,,,,,"","client backend",,0
+2023-08-08 16:24:26.997 UTC,,,1,,64d26c18.1,7,,2023-08-08 16:23:52 UTC,,0,LOG,00000,"received fast shutdown request",,,,,,,,,"","postmaster",,0
+2023-08-08 16:24:26.997 UTC,,,1,,64d26c18.1,8,,2023-08-08 16:23:52 UTC,,0,LOG,00000,"aborting any active transactions",,,,,,,,,"","postmaster",,0
+2023-08-08 16:24:26.998 UTC,,,1,,64d26c18.1,9,,2023-08-08 16:23:52 UTC,,0,LOG,00000,"background worker ""logical replication launcher"" (PID 34) exited with exit code 1",,,,,,,,,"","postmaster",,0
+2023-08-08 16:24:26.999 UTC,,,29,,64d26c18.1d,1,,2023-08-08 16:23:52 UTC,,0,LOG,00000,"shutting down",,,,,,,,,"","checkpointer",,0
+2023-08-08 16:24:26.999 UTC,,,29,,64d26c18.1d,2,,2023-08-08 16:23:52 UTC,,0,LOG,00000,"checkpoint starting: shutdown immediate",,,,,,,,,"","checkpointer",,0
+2023-08-08 16:24:27.001 UTC,,,29,,64d26c18.1d,3,,2023-08-08 16:23:52 UTC,,0,LOG,00000,"checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.003 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB",,,,,,,,,"","checkpointer",,0
+2023-08-08 16:24:27.004 UTC,,,1,,64d26c18.1,10,,2023-08-08 16:23:52 UTC,,0,LOG,00000,"database system is shut down",,,,,,,,,"","postmaster",,0

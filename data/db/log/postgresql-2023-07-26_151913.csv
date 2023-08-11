@@ -1,0 +1,22 @@
+2023-07-26 15:19:13.613 UTC,,,1,,64c13971.1,1,,2023-07-26 15:19:13 UTC,,0,LOG,00000,"ending log output to stderr",,"Future log output will go to log destination ""csvlog"".",,,,,,,"","postmaster",,0
+2023-07-26 15:19:13.613 UTC,,,1,,64c13971.1,2,,2023-07-26 15:19:13 UTC,,0,LOG,00000,"starting PostgreSQL 15.2 (Debian 15.2-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit",,,,,,,,,"","postmaster",,0
+2023-07-26 15:19:13.614 UTC,,,1,,64c13971.1,3,,2023-07-26 15:19:13 UTC,,0,LOG,00000,"listening on IPv4 address ""0.0.0.0"", port 5455",,,,,,,,,"","postmaster",,0
+2023-07-26 15:19:13.614 UTC,,,1,,64c13971.1,4,,2023-07-26 15:19:13 UTC,,0,LOG,00000,"listening on IPv6 address ""::"", port 5455",,,,,,,,,"","postmaster",,0
+2023-07-26 15:19:13.614 UTC,,,1,,64c13971.1,5,,2023-07-26 15:19:13 UTC,,0,LOG,00000,"listening on Unix socket ""/var/run/postgresql/.s.PGSQL.5455""",,,,,,,,,"","postmaster",,0
+2023-07-26 15:19:13.616 UTC,,,31,,64c13971.1f,1,,2023-07-26 15:19:13 UTC,,0,LOG,00000,"database system was shut down at 2023-07-26 15:18:23 UTC",,,,,,,,,"","startup",,0
+2023-07-26 15:19:13.619 UTC,,,1,,64c13971.1,6,,2023-07-26 15:19:13 UTC,,0,LOG,00000,"database system is ready to accept connections",,,,,,,,,"","postmaster",,0
+2023-07-26 15:24:13.683 UTC,,,29,,64c13971.1d,1,,2023-07-26 15:19:13 UTC,,0,LOG,00000,"checkpoint starting: time",,,,,,,,,"","checkpointer",,0
+2023-07-26 15:24:13.686 UTC,,,29,,64c13971.1d,2,,2023-07-26 15:19:13 UTC,,0,LOG,00000,"checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.004 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB",,,,,,,,,"","checkpointer",,0
+2023-07-26 15:25:16.667 UTC,"postgres","postgres",67,"[local]",64c13acf.43,1,"idle",2023-07-26 15:25:03 UTC,4/36,0,ERROR,42601,"syntax error at or near ""(""",,,,,,"show pq_current_logfile();",24,,"psql","client backend",,0
+2023-07-26 15:25:22.949 UTC,"postgres","postgres",67,"[local]",64c13acf.43,2,"SHOW",2023-07-26 15:25:03 UTC,4/37,0,ERROR,42704,"unrecognized configuration parameter ""pq_current_logfile""",,,,,,"show pq_current_logfile;",,,"psql","client backend",,0
+2023-07-26 15:25:34.232 UTC,"postgres","postgres",67,"[local]",64c13acf.43,3,"idle",2023-07-26 15:25:03 UTC,4/38,0,ERROR,42601,"syntax error at or near ""(""",,,,,,"show pq_current_logfile(csvlog);",24,,"psql","client backend",,0
+2023-07-26 15:26:14.996 UTC,"postgres","postgres",67,"[local]",64c13acf.43,4,"idle",2023-07-26 15:25:03 UTC,4/39,0,ERROR,42601,"syntax error at or near ""(""",,,,,,"show pg_current_logfile(csvlog);",24,,"psql","client backend",,0
+2023-07-26 15:26:21.255 UTC,"postgres","postgres",67,"[local]",64c13acf.43,5,"idle",2023-07-26 15:25:03 UTC,4/40,0,ERROR,42601,"syntax error at or near ""(""",,,,,,"show pg_current_logfile();",24,,"psql","client backend",,0
+2023-07-26 15:38:10.380 UTC,,,1,,64c13971.1,7,,2023-07-26 15:19:13 UTC,,0,LOG,00000,"received fast shutdown request",,,,,,,,,"","postmaster",,0
+2023-07-26 15:38:10.381 UTC,,,1,,64c13971.1,8,,2023-07-26 15:19:13 UTC,,0,LOG,00000,"aborting any active transactions",,,,,,,,,"","postmaster",,0
+2023-07-26 15:38:10.381 UTC,"postgres","postgres",35,"172.18.0.3:44278",64c13973.23,1,"idle",2023-07-26 15:19:15 UTC,3/0,0,FATAL,57P01,"terminating connection due to administrator command",,,,,,,,,"","client backend",,0
+2023-07-26 15:38:10.383 UTC,,,1,,64c13971.1,9,,2023-07-26 15:19:13 UTC,,0,LOG,00000,"background worker ""logical replication launcher"" (PID 34) exited with exit code 1",,,,,,,,,"","postmaster",,0
+2023-07-26 15:38:10.383 UTC,,,29,,64c13971.1d,3,,2023-07-26 15:19:13 UTC,,0,LOG,00000,"shutting down",,,,,,,,,"","checkpointer",,0
+2023-07-26 15:38:10.383 UTC,,,29,,64c13971.1d,4,,2023-07-26 15:19:13 UTC,,0,LOG,00000,"checkpoint starting: shutdown immediate",,,,,,,,,"","checkpointer",,0
+2023-07-26 15:38:10.384 UTC,,,29,,64c13971.1d,5,,2023-07-26 15:19:13 UTC,,0,LOG,00000,"checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.002 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB",,,,,,,,,"","checkpointer",,0
+2023-07-26 15:38:10.387 UTC,,,1,,64c13971.1,10,,2023-07-26 15:19:13 UTC,,0,LOG,00000,"database system is shut down",,,,,,,,,"","postmaster",,0
