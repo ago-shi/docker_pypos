@@ -1,6 +1,6 @@
 from django.core.management.base import BaseCommand, CommandError
 from django.db import transaction
-from stock.models import PriceDown
+from stock.models import DownRank
 
 from .library.customHtml import customHtml
 
@@ -23,7 +23,7 @@ class Command(BaseCommand):
             dataf = data.getRank()
 
             for i in dataf.index:
-                ins_db = PriceDown(TradeDate=dataf.loc[i][0], MarketCode=dataf.loc[i][1], 
-                                    value=dataf.loc[i][2], DownValue=dataf.loc[i][3], 
-                                    DownRate=dataf.loc[i][4], turnover=dataf.loc[i][5])
+                ins_db = DownRank(tradedate=dataf.loc[i][0], marketcode=dataf.loc[i][1], 
+                                    value=dataf.loc[i][2], downvalue=dataf.loc[i][3], 
+                                    downrate=dataf.loc[i][4], turnover=dataf.loc[i][5])
                 ins_db.save()
